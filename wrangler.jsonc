@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "a-t-construction-rupert",
+  "compatibility_date": "2026-04-09",
+  "main": "src/worker.js",
+  "assets": {
+    "binding": "ASSETS",
+    "directory": "./dist",
+    "run_worker_first": ["/api/*"]
+  },
+  "vars": {
+    "STUB_SLUG": "a-t-construction-rupert",
+    "BUSINESSSTUB_API_BASE": "https://businessstub.com"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "listing": {
+    "domain": "atconstructionid.localsearch.com",
+    "slug": "a-t-construction-rupert",
+    "title": "A & T Construction",
+    "niche": "General contractor, concrete, and excavation",
+    "city": "Rupert",
+    "region": "ID",
+    "summary": "Concrete, excavation, and general contracting website package for Rupert and Mini-Cassia, Idaho.",
+    "description": "A & T Construction is packaged as a Workers-backed local-service stub for concrete flatwork, excavation/trenching, grading/drainage, foundations, and general contracting around Rupert and Mini-Cassia. The site includes editable content, conversion-focused services and project highlight sections, generated visual assets, a BusinessStub chatbot widget, and server-side inquiry + chatbot proxy routes ready for intake once the Worker secret is configured.",
+    "value_proposition": "A clean, modern web presence gives rural property owners and builders a simple way to request quotes and describe job details—without relying on a directory profile alone.",
+    "purchase_price": 5000,
+    "rental_price": 425,
+    "rent_to_own_price": 595,
+    "status": "available",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "seo_title": "A & T Construction | Rupert, ID",
+    "seo_description": "Concrete flatwork, excavation, and general contracting in Rupert and Mini-Cassia. Request a quote.",
+    "internal_notes": "Prospect #102. Selected as top-scoring eligible prospect (score 138) on 2026-05-17. Source evidence: YellowPages contractor category in Rupert, ID; notes indicate a LocalSearch profile at atconstructionid.localsearch.com and public phone (208) 436-0738. Domain field reflects the directory/LocalSearch URL for matching context; domain ownership is not verified and is not included as a transferable asset. Design differentiation: light stone/concrete aesthetic with sticky glass header, AT monogram, hero split-layout, trust chips, line-icon service cards, and a combined service-area + quote form panel—visually distinct from prior dark excavation stubs. Build pattern: standalone Workers-backed static site with build-time site-editor content, same-origin /api/inquiry + /api/chatbot proxy routes, and generated visual assets. GitHub repository will be set after repo creation. Worker preview will be set after deployment. STUB_INTAKE_KEY is intentionally blank in this committed JSON and must be set as a Worker secret + included only in the import payload.",
+    "featured": false,
+    "archived": false,
+    "hidden": false,
+    "included_assets": [
+      "Website",
+      "Lead capture",
+      "Server-side inquiry proxy",
+      "Chatbot widget + proxy",
+      "Website editor",
+      "Repo / codebase"
+    ],
+    "transfer_checklist": [
+      { "label": "Repo access documented", "done": false },
+      { "label": "Dedicated domain verified or selected", "done": false },
+      { "label": "Cloudflare Worker created", "done": false },
+      { "label": "STUB_INTAKE_KEY configured as Worker secret", "done": false },
+      { "label": "Inquiry + chatbot proxy tested", "done": false },
+      { "label": "Site editor content publishing verified", "done": false }
+    ]
+  },
+  "repo": {
+    "owner": "haploman",
+    "name": "a-t-construction-rupert",
+    "branch": "main",
+    "schema_path": "site-editor/schema.json",
+    "content_path": "site-editor/content.json",
+    "preview_url": "",
+    "build_hook_url": ""
+  },
+  "site_editor": {
+    "enabled": true
+  },
+  "operations": {
+    "analytics_enabled": false,
+    "analytics_hostname": "atconstructionid.localsearch.com",
+    "cloudflare_zone_id": "",
+    "owner_email": "",
+    "owner_name": "",
+    "owner_notification_email": "",
+    "site_intake_key": "",
+    "chatbot_enabled": true,
+    "chatbot_mode": "service_concierge",
+    "chatbot_title": "A & T assistant",
+    "chatbot_greeting": "Ask a question about concrete, excavation, or getting an estimate.",
+    "chatbot_knowledge": "Services: concrete flatwork (driveways, slabs, pads, sidewalks, approach work), excavation/trenching (footings, utilities, site prep), foundations (forms/rebar/pours), grading & drainage, small builds & repairs (retaining walls/steps/repairs), and general contracting. Service area: Rupert and Mini-Cassia, plus nearby towns like Burley, Heyburn, Declo, Acequia, and Minidoka. For a quote: share job address, service needed, timing, access constraints, and any photos or rough dimensions if available.",
+    "chatbot_lead_prompt": "If you want a follow-up, share your name, phone number, job location, and what you need done.",
+    "custom_email_enabled": false,
+    "resend_from_email": "",
+    "resend_reply_domain": "",
+    "resend_api_key": "",
+    "traffic_last_30_days": 0,
+    "leads_last_30_days": 0,
+    "conversion_rate": 0,
+    "domain_age_months": 0,
+    "original_registration_at": "",
+    "last_transfer_at": ""
+  }
+}
+

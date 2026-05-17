@@ -1,0 +1,169 @@
+{
+  "version": 1,
+  "title": "Stub Website Editor",
+  "description": "Editable content for this site.",
+  "fields": [
+    {
+      "name": "business",
+      "type": "object",
+      "label": "Business Basics",
+      "fields": [
+        { "name": "name", "type": "text", "label": "Business name" },
+        { "name": "location", "type": "text", "label": "Location line" },
+        { "name": "tagline", "type": "text", "label": "Short tagline" },
+        { "name": "service_area", "type": "text", "label": "Service area (short)" },
+        { "name": "phone", "type": "tel", "label": "Phone number" }
+      ]
+    },
+    {
+      "name": "hero",
+      "type": "object",
+      "label": "Top Section",
+      "fields": [
+        { "name": "headline", "type": "textarea", "label": "Headline (use line breaks)" },
+        { "name": "body", "type": "textarea", "label": "Hero description" },
+        { "name": "image", "type": "image", "label": "Hero image" },
+        { "name": "image_alt", "type": "text", "label": "Hero image alt text" },
+        { "name": "primary_cta_text", "type": "text", "label": "Primary CTA text" },
+        { "name": "secondary_cta_text", "type": "text", "label": "Header call button text" },
+        { "name": "tertiary_cta_text", "type": "text", "label": "Secondary CTA text" }
+      ]
+    },
+    {
+      "name": "trust",
+      "type": "list",
+      "label": "Trust Points",
+      "itemFields": [
+        {
+          "name": "icon",
+          "type": "select",
+          "label": "Icon",
+          "options": ["shield", "truck", "pin", "clock"]
+        },
+        { "name": "label", "type": "text", "label": "Label" }
+      ]
+    },
+    {
+      "name": "services",
+      "type": "object",
+      "label": "Services",
+      "fields": [
+        { "name": "heading", "type": "text", "label": "Section heading" },
+        { "name": "intro", "type": "textarea", "label": "Section intro" },
+        {
+          "name": "items",
+          "type": "list",
+          "label": "Service cards",
+          "itemFields": [
+            {
+              "name": "icon",
+              "type": "select",
+              "label": "Icon",
+              "options": ["trowel", "excavator", "rebar", "drain", "bricks", "clipboard"]
+            },
+            { "name": "title", "type": "text", "label": "Title" },
+            { "name": "description", "type": "textarea", "label": "Description" }
+          ]
+        },
+        { "name": "jobs_label", "type": "text", "label": "Jobs label" },
+        {
+          "name": "jobs",
+          "type": "list",
+          "label": "Typical jobs",
+          "item": { "type": "text" }
+        },
+        { "name": "jobs_cta", "type": "text", "label": "Jobs CTA text" }
+      ]
+    },
+    {
+      "name": "work",
+      "type": "object",
+      "label": "Work",
+      "fields": [
+        { "name": "heading", "type": "text", "label": "Section heading" },
+        { "name": "intro", "type": "textarea", "label": "Section intro" },
+        {
+          "name": "items",
+          "type": "list",
+          "label": "Project cards",
+          "itemFields": [
+            { "name": "tag", "type": "text", "label": "Tag" },
+            { "name": "title", "type": "text", "label": "Title" },
+            { "name": "text", "type": "textarea", "label": "Description" },
+            { "name": "image", "type": "image", "label": "Image" },
+            { "name": "alt", "type": "text", "label": "Alt text" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "service_area",
+      "type": "object",
+      "label": "Service Area",
+      "fields": [
+        { "name": "heading", "type": "text", "label": "Section heading" },
+        { "name": "body", "type": "textarea", "label": "Section description" },
+        { "name": "card_title", "type": "text", "label": "Card title" },
+        { "name": "card_body", "type": "textarea", "label": "Card description" },
+        { "name": "map_label", "type": "text", "label": "Map label" },
+        {
+          "name": "places",
+          "type": "list",
+          "label": "Nearby places",
+          "item": { "type": "text" }
+        },
+        { "name": "note", "type": "textarea", "label": "Service area note" }
+      ]
+    },
+    {
+      "name": "contact",
+      "type": "object",
+      "label": "Contact Section",
+      "fields": [
+        { "name": "heading", "type": "text", "label": "Contact heading" },
+        { "name": "body", "type": "textarea", "label": "Contact description" },
+        { "name": "form_note", "type": "text", "label": "Form note" }
+      ]
+    },
+    {
+      "name": "form",
+      "type": "object",
+      "label": "Form Labels",
+      "fields": [
+        { "name": "name_label", "type": "text", "label": "Name label" },
+        { "name": "phone_label", "type": "text", "label": "Phone label" },
+        { "name": "email_label", "type": "text", "label": "Email label" },
+        { "name": "location_label", "type": "text", "label": "Location label" },
+        { "name": "service_label", "type": "text", "label": "Service label" },
+        { "name": "details_label", "type": "text", "label": "Details label" },
+        {
+          "name": "service_options",
+          "type": "list",
+          "label": "Service dropdown options",
+          "item": { "type": "text" }
+        },
+        { "name": "submit_text", "type": "text", "label": "Submit button text" }
+      ]
+    },
+    {
+      "name": "footer",
+      "type": "object",
+      "label": "Footer",
+      "fields": [
+        { "name": "tagline", "type": "textarea", "label": "Footer tagline" },
+        { "name": "legal", "type": "text", "label": "Legal line" }
+      ]
+    },
+    {
+      "name": "chatbot",
+      "type": "object",
+      "label": "Chatbot",
+      "fields": [
+        { "name": "title", "type": "text", "label": "Chatbot title" },
+        { "name": "greeting", "type": "textarea", "label": "Chatbot greeting" },
+        { "name": "launcher_label", "type": "text", "label": "Launcher label" }
+      ]
+    }
+  ]
+}
+

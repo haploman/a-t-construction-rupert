@@ -1,0 +1,130 @@
+{
+  "stub_slug": "a-t-construction-rupert",
+  "business": {
+    "name": "A & T Construction",
+    "location": "Rupert, Idaho",
+    "tagline": "General contracting, concrete, and excavation",
+    "service_area": "Rupert and Mini-Cassia, ID",
+    "phone": "(208) 436-0738"
+  },
+  "hero": {
+    "headline": "Concrete.\nExcavation.\nBuilt Right.",
+    "body": "General contracting, concrete flatwork, and excavation for Rupert and Mini-Cassia. Clear quotes, clean sites, reliable timelines.",
+    "image": "images/hero.png",
+    "image_alt": "Concrete pour with rural Idaho landscape and excavation equipment",
+    "primary_cta_text": "Request a Quote",
+    "secondary_cta_text": "Call (208) 436-0738",
+    "tertiary_cta_text": "View Services"
+  },
+  "trust": [
+    { "icon": "shield", "label": "Licensed & insured" },
+    { "icon": "truck", "label": "Concrete & excavation" },
+    { "icon": "pin", "label": "Rural jobsite friendly" },
+    { "icon": "clock", "label": "Fast estimates" }
+  ],
+  "services": {
+    "heading": "Services for jobs that need to last.",
+    "intro": "From flatwork to finish grading, we keep sites clean and communication simple.",
+    "items": [
+      {
+        "icon": "trowel",
+        "title": "Concrete flatwork",
+        "description": "Driveways, slabs, pads, sidewalks, and approach work."
+      },
+      {
+        "icon": "excavator",
+        "title": "Excavation",
+        "description": "Trenching, footings, utilities, and site prep."
+      },
+      {
+        "icon": "rebar",
+        "title": "Foundations",
+        "description": "Forms, rebar, pours, and ready-for-framing handoff."
+      },
+      {
+        "icon": "drain",
+        "title": "Grading & drainage",
+        "description": "Finish grading, swales, and water control."
+      },
+      {
+        "icon": "bricks",
+        "title": "Small builds & repairs",
+        "description": "Retaining walls, steps, and concrete repair."
+      },
+      {
+        "icon": "clipboard",
+        "title": "General contracting",
+        "description": "Scope, coordination, and trustworthy subs when needed."
+      }
+    ],
+    "jobs_label": "Typical jobs",
+    "jobs": ["Shop pads", "RV pads", "Barn slabs", "Approach aprons", "Water lines", "Septic trenching"],
+    "jobs_cta": "Request a Quote"
+  },
+  "work": {
+    "heading": "Project highlights",
+    "intro": "A few common scopes we handle around Rupert and Mini-Cassia.",
+    "items": [
+      {
+        "tag": "Concrete",
+        "title": "Shop pad & approach",
+        "text": "Clean edges, tight joints, and durable finish.",
+        "image": "images/work-shop-pad.png",
+        "alt": "Shop pad with finished concrete approach apron"
+      },
+      {
+        "tag": "Excavation",
+        "title": "Utility trenching",
+        "text": "Straight runs, safe depth, tidy backfill.",
+        "image": "images/work-trenching.png",
+        "alt": "Utility trenching with equipment on a rural property"
+      },
+      {
+        "tag": "Prep",
+        "title": "Slab & foundation prep",
+        "text": "Excavate, compact, forms—ready for pour.",
+        "image": "images/work-foundation-prep.png",
+        "alt": "Foundation preparation with forms and base material"
+      }
+    ]
+  },
+  "service_area": {
+    "heading": "Service area",
+    "body": "Rupert and Mini-Cassia, plus surrounding rural properties.",
+    "card_title": "Service area",
+    "card_body": "Rupert and Mini-Cassia, plus surrounding rural properties.",
+    "map_label": "Mini-Cassia",
+    "places": ["Rupert", "Burley", "Heyburn", "Declo", "Acequia", "Minidoka"],
+    "note": "Not sure if you’re in range? Send the job address—we’ll confirm."
+  },
+  "contact": {
+    "heading": "Request a quote",
+    "body": "Tell us what you’re building and where. We’ll follow up with a clear plan and estimate.",
+    "form_note": "Prefer to talk? Call (208) 436-0738."
+  },
+  "form": {
+    "name_label": "Name",
+    "phone_label": "Phone",
+    "email_label": "Email (optional)",
+    "location_label": "Job location",
+    "service_label": "Service needed",
+    "details_label": "Project details",
+    "service_options": [
+      "Concrete flatwork",
+      "Excavation / trenching",
+      "Grading / drainage",
+      "General contracting",
+      "Repair / small build"
+    ],
+    "submit_text": "Send request"
+  },
+  "footer": {
+    "tagline": "Concrete flatwork, excavation, and general contracting in Rupert and Mini-Cassia.",
+    "legal": "© 2026 A & T Construction. All rights reserved."
+  },
+  "chatbot": {
+    "title": "A & T assistant",
+    "greeting": "Ask a question about concrete, excavation, or getting an estimate.",
+    "launcher_label": "Ask a question"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "a-t-construction-rupert-stub",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node ./scripts/build.mjs",
+    "dev": "npm run build && npx wrangler dev",
+    "preview": "npm run build && npx wrangler dev --local"
+  }
+}
