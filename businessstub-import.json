@@ -18,7 +18,7 @@
     "thumbnail_url": "",
     "seo_title": "A & T Construction | Rupert, ID",
     "seo_description": "Concrete flatwork, excavation, and general contracting in Rupert and Mini-Cassia. Request a quote.",
-    "internal_notes": "Prospect #102. Selected as top-scoring eligible prospect (score 138) on 2026-05-17. Source evidence: YellowPages contractor category in Rupert, ID; notes indicate a LocalSearch profile at atconstructionid.localsearch.com and public phone (208) 436-0738. Domain field reflects the directory/LocalSearch URL for matching context; domain ownership is not verified and is not included as a transferable asset. Design differentiation: light stone/concrete aesthetic with sticky glass header, AT monogram, hero split-layout, trust chips, line-icon service cards, and a combined service-area + quote form panel—visually distinct from prior dark excavation stubs. Build pattern: standalone Workers-backed static site with build-time site-editor content, same-origin /api/inquiry + /api/chatbot proxy routes, and generated visual assets. GitHub repository will be set after repo creation. Worker preview will be set after deployment. STUB_INTAKE_KEY is intentionally blank in this committed JSON and must be set as a Worker secret + included only in the import payload.",
+    "internal_notes": "Prospect #102. Selected as top-scoring eligible prospect (score 138) on 2026-05-17. Source evidence: YellowPages contractor category in Rupert, ID; notes indicate a LocalSearch profile at atconstructionid.localsearch.com and public phone (208) 436-0738. Domain field reflects the directory/LocalSearch URL for matching context; domain ownership is not verified and is not included as a transferable asset. Design differentiation: light stone/concrete aesthetic with sticky glass header, AT monogram, hero split-layout, trust chips, line-icon service cards, and a combined service-area + quote form panel—visually distinct from prior dark excavation stubs. Build pattern: standalone Workers-backed static site with build-time site-editor content, same-origin /api/inquiry + /api/chatbot proxy routes, and generated visual assets. GitHub repository: https://github.com/haploman/a-t-construction-rupert. Worker preview will be set after deployment. STUB_INTAKE_KEY is intentionally blank in this committed JSON and must be set as a Worker secret + included only in the import payload.",
     "featured": false,
     "archived": false,
     "hidden": false,
@@ -31,7 +31,7 @@
       "Repo / codebase"
     ],
     "transfer_checklist": [
-      { "label": "Repo access documented", "done": false },
+      { "label": "Repo access documented", "done": true },
       { "label": "Dedicated domain verified or selected", "done": false },
       { "label": "Cloudflare Worker created", "done": false },
       { "label": "STUB_INTAKE_KEY configured as Worker secret", "done": false },
@@ -77,4 +77,3 @@
     "last_transfer_at": ""
   }
 }
-
