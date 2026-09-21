@@ -1,4 +1,7 @@
 {
+  "account_id": "3ee60842cc3d21df5a41347754714654",
+  "workers_dev": true,
+  "preview_urls": true,
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "a-t-construction-rupert",
   "compatibility_date": "2026-04-09",
